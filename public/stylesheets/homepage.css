@@ -1,0 +1,201 @@
+body {
+  background:url(/images/oak-wood-washed.jpg) repeat #989898;
+  text-align: center;
+}
+
+#container {
+  text-align:left;
+  width:35em;
+  margin: 3em auto;
+  position: relative;
+}
+
+#wrap {
+  position:relative;
+  z-index:40;
+  padding:2.5em;
+  background:#fdf8f4;
+  -moz-box-shadow: #4F321D 0px 4px 15px 2px;
+  -webkit-box-shadow: #4F321D 0px 4px 15px 2px;
+}
+
+#footer {
+  font:0.8em/1.5 "Lucida Grande", Arial, sans-serif;
+  color:#DFCFC3;
+  margin-top:1em;
+  padding:0 2.5em;
+}
+
+#footer a {
+  background:transparent;
+  color:#fff;
+  border-bottom:none;
+}
+
+.ui-tabs-hide {
+  display:none;
+}
+
+.nav {
+  position: absolute;
+  top: -1.95em;
+  right: 2em;
+  text-align: right;
+}
+
+.nav ul,.nav li {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  -moz-box-shadow: #4F321D 0px 4px 15px 2px;
+  -webkit-box-shadow: #4F321D 0px 4px 15px 2px;
+  position:relative;
+  z-index:30;
+  text-transform:uppercase;
+  background:#f6efe1;
+  border:none;
+  margin:0;
+  font-size:87.5%;
+  font-weight:bold;
+  padding:0.75em 0.75em;
+}
+
+.nav .ui-tabs-selected a {
+  background: #fdf8f4;
+  z-index:31;
+}
+
+.nav a:hover {
+  background: #fdf8f4;
+}
+
+.nav .selected a {
+  background: #333;
+  color: #fdf8f4;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0 0 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  background: #FFF;
+  border-bottom: 2px solid #f5dfac;
+}
+
+a:hover {
+  color: #333;
+  background: #f8efd4;
+  border: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 1.111em 0 .3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 1.125em 0 .375em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin: 1.5em 0 .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+acronym,abbr {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+blockquote {
+  background: #f6efe1;
+  border-left: 1em solid #f5dfac;
+  margin: 0 1em 1.5em;
+  padding: 1.5em 2em;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+span.amp {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia,
+    "Times New Roman", times, serif;
+  font-style: italic;
+}
+
+.large {
+  font-size: larger;
+}
+
+.small {
+  font-size: smaller;
+}
+
+.date {
+  font-size:75%;
+  font-style: italic;
+  color:#999999;
+}
+
+.date:before {
+  content:"( ";
+}
+.date:after {
+  content:" )";
+}
+
+.right {
+  float: right;
+  margin: 0 0 0.5em 0.5em;
+}
+
+.photo {
+  border: 0.5em solid #FFF;
+}
+
+.clear {
+  clear: both;
+}
+
+dt {
+  font-style: italic;
+}
