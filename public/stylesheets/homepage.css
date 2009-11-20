@@ -14,7 +14,7 @@ body {
   position: relative;
 }
 
-#wrap {
+#mike_busch {
   position:relative;
   padding:2.5em 2.5em 1.5em;
   background:#fdf8f4;
@@ -123,8 +123,17 @@ h2 {
   font-size:1.25em;
   font-variant:small-caps;
   letter-spacing:0.2em;
-  margin:1.5em 0 0;
   text-transform:lowercase;
+  margin:1em 0 0.5em;
+}
+
+#experience ol {
+  padding-left:0;
+  list-style-type:none;
+}
+
+#experience ol > li {
+  padding-left:0;
 }
 
 h3 {
@@ -140,6 +149,7 @@ h3 {
 }
 
 h4 {
+  display:inline-block;
   font-style: italic;
   font-weight: normal;
   line-height: 1.5em;
@@ -150,7 +160,7 @@ strong {
   font-weight: bold;
 }
 
-acronym,abbr {
+acronym,abbr,.date {
   font-variant: small-caps;
   text-transform: lowercase;
   font-weight: bold;
@@ -192,17 +202,23 @@ span.amp {
 }
 
 .date {
+  float:right;
+  display:inline-block;
   font-size:75%;
   font-style: italic;
   color:#999999;
 }
 
-.date:before {
+.date abbr {
+  border-bottom:0;
+}
+
+/*.date:before {
   content:"( ";
 }
 .date:after {
   content:" )";
-}
+}*/
 
 .right {
   float: right;
@@ -222,8 +238,9 @@ dt {
 }
 
 /* social media icons */
-a[href^=mailto] {
-  color:blue;
+#contact ul {
+  padding-left:0;
+  list-style-type:none;
 }
 
 #contact a[href] {
@@ -263,12 +280,6 @@ a[href^=mailto] {
   background:url(/images/icons/github.png) no-repeat top left;
 }
 
-#contact a[href*=technorati] {
-  background:url(/images/icons/vcard.png) no-repeat left -10px;
-  height:38px;
-  width:48px;
-}
-
 #download_vcard {
   position:relative;
   top:-4px;
@@ -277,5 +288,8 @@ a[href^=mailto] {
 }
 
 #contact #download_vcard a {
+  background:url(/images/icons/vcard.png) no-repeat left -10px;
+  height:38px;
+  width:48px;
   margin-right:0;
 }
