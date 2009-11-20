@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+.hidden {
+  display:none;
+}
+
 #container {
   text-align:left;
   width:35em;
