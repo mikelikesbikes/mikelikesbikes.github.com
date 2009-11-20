@@ -12,7 +12,7 @@ body {
 
 #wrap {
   position:relative;
-  padding:2.5em;
+  padding:2.5em 2.5em 1.5em;
   background:#fdf8f4;
   -moz-box-shadow: #4F321D 0px 4px 15px 2px;
   -webkit-box-shadow: #4F321D 0px 4px 15px 2px;
@@ -37,8 +37,8 @@ body {
 
 .nav {
   position: absolute;
-  z-index:-30;
-  top: -2.65em;
+/*  z-index:-30;*/
+  top: -2.60em;
   right: 2em;
   text-align: right;
 }
@@ -52,21 +52,21 @@ body {
 
 .nav a {
   position:relative;
-  z-index:-1;
+/*  z-index:-1;*/
   text-transform:uppercase;
   background:#f6efe1;
   border:none;
   display:inline-block;
   font-size:87.5%;
   font-weight:bold;
-  padding:0.75em 0.75em;
-  box-shadow: #4F321D 0px 4px 15px 2px;
-  -moz-box-shadow: #4F321D 0px 4px 15px 2px;
-  -webkit-box-shadow: #4F321D 0px 4px 15px 2px;
+  padding:0.75em 0.75em;/*
+    box-shadow: #4F321D 0px 4px 15px 2px;
+    -moz-box-shadow: #4F321D 0px 4px 15px 2px;
+    -webkit-box-shadow: #4F321D 0px 4px 15px 2px;*/
 }
 
 .nav .ui-tabs-selected a {
-  z-index:auto;
+/*  z-index:auto;*/
   background: #fdf8f4;
   box-shadow: none;
   -moz-box-shadow: none;
@@ -223,8 +223,7 @@ a[href^=mailto] {
 }
 
 #contact a[href^=mailto] {
-  background:url(/images/icons/envelope.png) no-repeat top left;
-  width:49px;
+  background:url(/images/icons/email.png) no-repeat top left;
 }
 
 #contact a[href*=delicious] {
@@ -247,3 +246,19 @@ a[href^=mailto] {
   background:url(/images/icons/github.png) no-repeat top left;
 }
 
+#contact a[href*=technorati] {
+  background:url(/images/icons/vcard.png) no-repeat left -10px;
+  height:38px;
+  width:48px;
+}
+
+#download_vcard {
+  position:relative;
+  top:-4px;
+  right:-2px;
+  float:right;
+}
+
+#contact #download_vcard a {
+  margin-right:0;
+}

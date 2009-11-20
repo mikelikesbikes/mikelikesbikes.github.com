@@ -22,6 +22,9 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#resume">Resume</a></li>
         </ul>
+        <div id="resume">
+          <%= render :partial => 'home/resume' %>
+        </div>
         <div id="contact">
           <ul>
             <li><a href="mailto:mike@mikelikesbikes.com" title="I answer email.">mike@mikelikesbikes.com</a></li>
@@ -30,10 +33,8 @@
             <li><a href="http://mikelikesbikes.com" title="I blog once in a while.">mikelikesbikes.com/blog</a></li>
             <li><a href="http://delicious.com/mikelikesbikes" title="I reading lots of news.">delicious.com/mikelikesbikes</a></li>
             <li><a href="http://github.com/mikelikesbikes" title="I code in public.">github.com/mikelikesbikes</a></li>
+            <li id="download_vcard"><a href="http://feeds.technorati.com/contacts/<%= home_url %>" title="Add me to your Address Book">My Card</a></li>
           </ul>
-        </div>
-        <div id="resume">
-          <%= render :partial => 'home/resume' %>
         </div>
       </div>
       <div id="elsewhere">
