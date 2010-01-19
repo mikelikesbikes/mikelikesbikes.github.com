@@ -25,7 +25,7 @@ body {
 }
 
 #contact h2.hidden {
-  display:block;
+  display:block !important;
 }
 
 #contact ul li {
@@ -33,7 +33,7 @@ body {
 }
 
 #contact ul li.print {
-  display:block;
+  display:block !important;
 }
 
 #contact a[href] {
