@@ -1,0 +1,8 @@
+production:
+  openid:
+    server: http://www.myopenid.com/server
+    delegate: http://mikelikesbikes.myopenid.com/
+  openid2:
+    local_id: http://mikelikesbikes.myopenid.com
+    provider: http://www.myopenid.com/server
+  x_xrds_location: http://www.myopenid.com/xrds?username=mikelikesbikes.myopenid.com
