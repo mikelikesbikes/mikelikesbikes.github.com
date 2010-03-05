@@ -31,6 +31,13 @@
     input {
       width:100%;
     }
+
+    td.full_width_input {
+      padding:6px 10px; /* want 6px padding, so... 6px + 2px*2 = 10px */
+    }
+    td.full_width_input input {
+      margin-left:-4px; /* compensate for width:100% not including input border width */
+    }
   </style>
 </head>
 
@@ -46,7 +53,12 @@
       <tbody>
         <tr>
           <td>
-            <input type="text" name="some_name" value="" id="some_name">
+            <input type="text" name="some_name" value="this input has width:100% but doesn't respect the td's padding" id="some_name">
+          </td>
+        </tr>
+        <tr>
+          <td class="full_width_input">
+            <input type="text" name="some_name" value="this input has width:100% AND does respect the td's padding" id="some_name">
           </td>
         </tr>
       </tbody>
