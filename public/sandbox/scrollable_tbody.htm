@@ -13,10 +13,10 @@
     }
 
     tbody tr:nth-child(2n + 1) {
-      background:#EEE;
+/*      background:#EEE;*/
     }
     tbody tr:nth-child(2n) {
-      background:#DDD;
+      /*background:#DDD;*/
     }
     td {
       padding:6px;
@@ -49,6 +49,11 @@
     }
     .clear {
       clear:both;
+    }
+
+    tr.separator td {
+      background:red;
+      border:0;
     }
 
     table.scrollable tbody {
@@ -585,6 +590,9 @@
             </tr>
         </thead>
         <tbody>
+            <tr class="separator">
+              <td colspan="3">This is a Separator</td>
+            </tr>
             <tr>
                 <td>Table Cell Content</td>
                 <td>Table Cell Content</td>
