@@ -13,11 +13,11 @@ body {
   display:block;
 }
 
-#tabs .nav, #footer {
+.ui-tabs .nav, #footer {
   display:none;
 }
 
-#mike_busch {
+#mike_busch, #wrap {
   padding:0;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -37,6 +37,7 @@ body {
 }
 
 #contact a[href] {
+  opacity:1;
   text-indent:0;
   margin-right:0;
   width:auto;
@@ -65,4 +66,8 @@ a {
 
 #contact h2 {
   margin:0.5em 0;
+}
+
+#shadow_fix {
+  display:none;
 }
