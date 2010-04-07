@@ -42,7 +42,7 @@ body {
   width:auto;
   height:auto;
   border-bottom:0;
-  display:auto;
+  display:inline;
   background:none !important;
 }
 

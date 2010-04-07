@@ -1,5 +1,16 @@
+/****
+ Colors:
+ Text: #313732
+ Links: #8AA8B0
+ Grey: #DEDEDE
+ Body: #fdfdfd
+ Background: #F26101
+
+ */
+
+
 body {
-  background:url(/images/oak-wood-washed.jpg) repeat #989898;
+  background:#F26101 url(/images/oak-wood-washed.jpg) repeat;
   text-align: center;
 }
 
@@ -14,12 +25,13 @@ body {
   position: relative;
 }
 
-#mike_busch {
+#wrap {
   position:relative;
+  z-index:2;
   padding:2.5em 2.5em 1.5em;
-  background:#fdf8f4;
-  -moz-box-shadow: #4F321D 0px 4px 15px 2px;
-  -webkit-box-shadow: #4F321D 0px 4px 15px 2px;
+  background:#fdfdfd;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px 2px;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px 2px;
 }
 
 #footer {
@@ -42,7 +54,7 @@ body {
 .nav {
   position: absolute;
 /*  z-index:-30;*/
-  top: -2.60em;
+  top: -2.35em;
   right: 2em;
   text-align: right;
 }
@@ -56,34 +68,31 @@ body {
 
 .nav a {
   position:relative;
-/*  z-index:-1;*/
+  z-index:1;
   text-transform:uppercase;
-  background:#f6efe1;
+  background:#EFE6E0;
   border:none;
   display:inline-block;
   font-size:87.5%;
   font-weight:bold;
-  padding:0.75em 0.75em;/*
-    box-shadow: #4F321D 0px 4px 15px 2px;
-    -moz-box-shadow: #4F321D 0px 4px 15px 2px;
-    -webkit-box-shadow: #4F321D 0px 4px 15px 2px;*/
+  padding:0.75em 0.75em 0.5em;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px 2px;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px 2px;
 }
 
 .nav .ui-tabs-selected a {
-/*  z-index:auto;*/
-  background: #fdf8f4;
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
+  z-index:3;
+  background: #fdfdfd;
 }
 
 .nav a:hover {
-  background: #fdf8f4;
+  background: #fdfdfd;
+  border:0;
 }
 
 .nav .selected a {
   background: #333;
-  color: #fdf8f4;
+  color: #fdfdfd;
 }
 
 p {
@@ -93,15 +102,12 @@ p {
 
 a {
   text-decoration: none;
-  color: #333;
-  background: #FFF;
-  border-bottom: 2px solid #f5dfac;
+  color: #313732;
+  border-bottom:3px solid #EFE6E0;
 }
 
 a:hover {
-  color: #333;
-  background: #f8efd4;
-  border: none;
+  border-bottom:3px solid #CD7E4D;
 }
 
 h1 {
@@ -250,6 +256,11 @@ dt {
   height:32px;
   border-bottom:0;
   display:block;
+  opacity:0.7;
+}
+
+#contact a[href]:hover {
+  opacity:1;
 }
 
 #contact li {
@@ -292,4 +303,14 @@ dt {
   height:38px;
   width:48px;
   margin-right:0;
+}
+
+#shadow_fix {
+  height:2em;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:#FDFDFD;
+  z-index:10;
 }

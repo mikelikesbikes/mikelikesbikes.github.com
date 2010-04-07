@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $("#tabs").tabs();
+  $("#mike_busch").tabs();
 })

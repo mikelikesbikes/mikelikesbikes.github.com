@@ -52,7 +52,7 @@ a img, input[type="image"] { border: none; }
 
 body {
   background:#FFF;
-  color:#333333;
+  color:#313732;
   font:1em/1.5 "Palatino Linotype","Book Antiqua",Palatino,Georgia,"Times New Roman",times,serif;
 }
 
@@ -87,7 +87,7 @@ ul {
 }
 
 ol {
-  list-stype-type:decimal;
+  list-style-type:decimal;
 }
 
 li {
@@ -95,7 +95,7 @@ li {
 }
 
 acronym[title], abbr[title] {
-  border-bottom:1px dotted #333333;
+  border-bottom:1px dotted #313732;
 }
 
 .clear {
