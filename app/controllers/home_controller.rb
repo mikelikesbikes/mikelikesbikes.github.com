@@ -4,6 +4,6 @@ class HomeController < ApplicationController
   end
 
   def awesome
-    redirect_to "http://trololololololololololo.com/"
+    redirect_to "http://bit.ly/ddNy6G"
   end
 end
