@@ -1,0 +1,5 @@
+<a href="#mike_busch" class="include contact" title="Mike Busch"></a>
+
+<% %w[overview skills experience education extras honors_and_certs].each do |section| %>
+  <%= render :partial => "resume/sections/#{section}" %>
+<% end %>
