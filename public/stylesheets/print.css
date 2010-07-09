@@ -76,3 +76,7 @@ a {
 #shadow_fix {
   display:none;
 }
+
+acronym[title], abbr[title] {
+  border-bottom:0px;
+}
