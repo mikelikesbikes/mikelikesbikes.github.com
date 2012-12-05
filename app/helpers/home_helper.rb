@@ -15,7 +15,7 @@ module HomeHelper
           tags += tag(:link, {:rel => "openid2.#{rel}", :href => href})
         end
       end
-      return tags
+      return tags.html_safe
     end
   end
 end
