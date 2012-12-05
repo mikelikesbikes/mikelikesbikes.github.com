@@ -1,1 +1,1 @@
-OPEN_ID = YAML.load_file("#{RAILS_ROOT}/config/open_id.yml")[RAILS_ENV]
+OPEN_ID = YAML.load_file("#{Rails.root}/config/open_id.yml")[Rails.env]
