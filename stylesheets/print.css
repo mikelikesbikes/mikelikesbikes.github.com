@@ -1,0 +1,82 @@
+body {
+  background:#FFF;
+  font-size:12px;
+  padding:0;
+}
+
+#container {
+  margin:0;
+  width:100%;
+}
+
+#resume {
+  display:block;
+}
+
+.ui-tabs .nav, #footer, .note {
+  display:none;
+}
+
+#mike_busch, #wrap {
+  padding:0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  background:none;
+}
+
+#contact {
+  display:block;
+}
+
+#contact h2.hidden {
+  display:block !important;
+}
+
+#contact ul li {
+  display:none;
+}
+
+#contact ul li.print {
+  display:block !important;
+}
+
+#contact a[href] {
+  opacity:1;
+  text-indent:0;
+  margin-right:0;
+  width:auto;
+  height:auto;
+  border-bottom:0;
+  display:inline;
+  background:none !important;
+}
+
+.date {
+  font-size:1em;
+  line-height:1em;
+}
+
+a {
+  border-bottom:0;
+  background:none;
+}
+
+#contact h2 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin: 1.5em 0 .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contact h2 {
+  margin:0.5em 0;
+}
+
+#shadow_fix {
+  display:none;
+}
+
+acronym[title], abbr[title] {
+  border-bottom:0px;
+}

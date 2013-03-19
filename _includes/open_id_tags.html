@@ -1,0 +1,16 @@
+{% assign openid = site.openid_cfg %}
+{% if openid.x_xrds_location %}
+  <meta http-equiv="X-XRDS-Location" content="{{ openid.x_xrds_location }}" />
+{% endif %}
+
+{% if openid.openid %}
+  {% for property in openid.openid %}
+    <link rel="openid.{{ property[0] }}" href="{{ property[1] }}" />
+  {% endfor %}
+{% endif %}
+
+{% if openid.openid2 %}
+  {% for property in openid.openid2 %}
+    <link rel="openid2.{{ property[0] }}" href="{{ property[1] }}" />
+  {% endfor %}
+{% endif %}

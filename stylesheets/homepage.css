@@ -1,0 +1,321 @@
+/****
+ Colors:
+ Text: #313732
+ Links: #8AA8B0
+ Grey: #DEDEDE
+ Body: #fdfdfd
+ Background: #F26101
+
+ */
+
+
+body {
+  background:#F26101 url(/images/oak-wood-washed.jpg) repeat;
+  text-align: center;
+}
+
+.hidden, #contact li.hidden {
+  display:none;
+}
+
+#container {
+  text-align:left;
+  width:35em;
+  margin: 3em auto;
+  position: relative;
+}
+
+#wrap {
+  position:relative;
+  z-index:2;
+  padding:2.5em 2.5em 1.5em;
+  background:#fdfdfd;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px 2px;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px;
+}
+
+#footer {
+  font:0.8em/1.5 "Lucida Grande", Arial, sans-serif;
+  color:#DFCFC3;
+  margin-top:1em;
+  padding:0 3.125em;
+}
+
+#footer a {
+  background:transparent;
+  color:#fff;
+  border-bottom:none;
+}
+
+.ui-tabs-hide {
+  display:none;
+}
+
+.nav {
+  position: absolute;
+/*  z-index:-30;*/
+  top: -2.35em;
+  right: 2em;
+  text-align: right;
+}
+
+.nav ul,.nav li {
+  list-style: none;
+  display: inline-block;
+  margin:0 0 0 0.25em;
+  padding: 0;
+}
+
+.nav a {
+  position:relative;
+  z-index:1;
+  text-transform:uppercase;
+  background:#EFE6E0;
+  border:none;
+  display:inline-block;
+  font-size:87.5%;
+  font-weight:bold;
+  padding:0.75em 0.75em 0.5em;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px 2px;
+  -webkit-box-shadow: rgba(0,0,0,0.5) 0px 2px 10px;
+}
+
+.nav .ui-tabs-selected a {
+  z-index:3;
+  background: #fdfdfd;
+}
+
+.nav a:hover {
+  background: #fdfdfd;
+  border:0;
+}
+
+.nav .selected a {
+  background: #333;
+  color: #fdfdfd;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0 0 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #313732;
+  border-bottom:3px solid #EFE6E0;
+}
+
+a:hover {
+  border-bottom:3px solid #CD7E4D;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin:0 0 .3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin:1em 0;
+  font-weight: normal;
+}
+
+#resume h2 {
+  color:#999999;
+  font-size:1.25em;
+  font-variant:small-caps;
+  letter-spacing:0.2em;
+  text-transform:lowercase;
+  margin:1em 0 0.5em;
+}
+
+#experience ol {
+  padding-left:0;
+  list-style-type:none;
+}
+
+#experience ol > li {
+  padding-left:0;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  margin: 1.5em 0 .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#resume h3 {
+  margin:0.5em 0;
+}
+
+h4 {
+  display:inline-block;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+acronym,abbr,.date {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+blockquote {
+  background: #f6efe1;
+  border-left: 1em solid #f5dfac;
+  margin: 0 1em 1.5em;
+  padding: 1.5em 2em;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+span.amp {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia,
+    "Times New Roman", times, serif;
+  font-style: italic;
+}
+
+.large {
+  font-size: larger;
+}
+
+.small {
+  font-size: smaller;
+}
+
+.date {
+  float:right;
+  display:inline-block;
+  font-size:75%;
+  line-height:24px;
+  font-style: italic;
+  color:#999999;
+}
+
+.date abbr {
+  border-bottom:0;
+}
+
+/*.date:before {
+  content:"( ";
+}
+.date:after {
+  content:" )";
+}*/
+
+.right {
+  float: right;
+  margin: 0 0 0.5em 0.5em;
+}
+
+.photo {
+  border: 0.5em solid #FFF;
+}
+
+.clear {
+  clear: both;
+}
+
+dt {
+  font-style: italic;
+}
+
+/* social media icons */
+#contact ul {
+  padding-left:0;
+  list-style-type:none;
+}
+
+#contact a[href] {
+  text-indent:-9999px;
+  margin-right:16px;
+  width:32px;
+  height:32px;
+  border-bottom:0;
+  display:block;
+  opacity:0.7;
+}
+
+#contact a[href]:hover {
+  opacity:1;
+}
+
+#contact li {
+  display:inline-block;
+}
+
+#contact a[href^=mailto] {
+  background:url(/images/icons/email.png) no-repeat top left;
+}
+
+#contact a[href*=delicious] {
+  background:url(/images/icons/delicious.png) no-repeat top left;
+}
+
+#contact a[href*=linkedin] {
+  background:url(/images/icons/linkedin.png) no-repeat top left;
+}
+/*
+#contact a[href^=skype] {
+  background:url(/images/icons/linkedin.png) no-repeat top left;
+}*/
+
+#contact a[href*=twitter] {
+  background:url(/images/icons/twitter.png) no-repeat top left;
+}
+
+#contact a[href^=http][href*='mikelikesbikes.com'] {
+  background:url(/images/icons/rss.png) no-repeat top left;
+}
+
+#contact a[href*=github] {
+  background:url(/images/icons/github.png) no-repeat top left;
+}
+
+#download_vcard {
+  position:relative;
+  top:-4px;
+  right:-2px;
+  float:right;
+}
+
+#contact #download_vcard a {
+  background:url(/images/icons/vcard.png) no-repeat left -10px;
+  height:38px;
+  width:48px;
+  margin-right:0;
+}
+
+#shadow_fix {
+  height:2em;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  background:#FDFDFD;
+  z-index:10;
+}

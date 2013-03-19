@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+body {
+  padding:1em;
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol, ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+blockquote, q {
+  quotes: "" "";
+}
+a img, input[type="image"] { border: none; }
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear :both;
+  visibility: hidden;
+}
+
+body {
+  background:#FFF;
+  color:#313732;
+  font:1em/1.5 "Palatino Linotype","Book Antiqua",Palatino,Georgia,"Times New Roman",times,serif;
+}
+
+h1 {
+  font-size:1.5em;
+  margin-bottom:1em;
+}
+
+h2 {
+  font-size:1.25em;
+  margin:1em 0em 0.5em;
+}
+
+p {
+  margin-bottom:1em;
+}
+em {
+  font-style:italic;
+}
+
+dd {
+  padding-left:2em;
+}
+
+ul, ol {
+  padding-left:2em;
+  margin-bottom:1em;
+}
+
+ul {
+  list-style-type:disc;
+}
+
+ol {
+  list-style-type:decimal;
+}
+
+li {
+  padding-left:0.5em;
+}
+
+acronym[title], abbr[title] {
+  border-bottom:1px dotted #313732;
+}
+
+.clear {
+  clear: both;
+  display:block;
+}
