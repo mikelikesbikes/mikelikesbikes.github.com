@@ -1,0 +1,5 @@
+<ul class="nav">
+  {% for tab in site.navigation %}
+    <li class="{% if tab[0] == page.nav %}active{% endif %}"><a href="/{{ tab[0] }}/">{{ tab[1] }}</a></li>
+  {% endfor %}
+</ul>

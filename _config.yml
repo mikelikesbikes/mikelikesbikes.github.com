@@ -13,7 +13,7 @@ future:      true
 lsi:         false
 pygments:    false
 markdown:    maruku
-permalink:   date
+permalink:   pretty
 
 maruku:
   use_tex:    false
@@ -52,3 +52,6 @@ openid_cfg:
     provider: http://www.myopenid.com/server
   x_xrds_location: http://www.myopenid.com/xrds?username=mikelikesbikes.myopenid.com
 
+navigation:
+  contact: Contact
+  resume: Resume
