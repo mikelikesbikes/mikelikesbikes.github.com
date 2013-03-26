@@ -8,6 +8,7 @@ url: http://mikelikesbikes.com/
 source:      .
 destination: ./_site
 plugins:     ./_plugins
+exclude:     ./Gemfile, ./Gemfile.lock, ./.ruby-version
 
 future:      true
 lsi:         false
