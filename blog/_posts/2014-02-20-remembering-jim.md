@@ -1,7 +1,9 @@
 ---
-layout: homepage
+layout: blog
 nav: blog
 ---
+
+## Remembering Jim
 
 Today, Jim Weirich – a legend in the Ruby community – passed away. Jim was a humble, kind, and patient man and a source of so much positivity in our community. I want to tell you a story about how Jim came into my life.
 
