@@ -4,7 +4,7 @@ url:          http://mikelikesbikes.com/
 
 source:       .
 destination:  ./_site
-exclude:      [Gemfile, Gemfile.lock, .ruby-version, bin, Procfile, config.ru]
+exclude:      [Gemfile, Gemfile.lock, .ruby-version, bin, Procfile, config.ru, vendor]
 
 openid_cfg:
   openid:
