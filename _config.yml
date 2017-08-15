@@ -1,10 +1,29 @@
-safe:         false
-baseurl:      /
-url:          http://mikelikesbikes.com/
-
+# Where things are
 source:       .
 destination:  ./_site
-exclude:      [Gemfile, Gemfile.lock, .ruby-version, bin, Procfile, config.ru, vendor]
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+
+# Handling Reading
+safe:                 false
+exclude:              ["Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+encoding:             "utf-8"
+strict_front_matter: false
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+show_dir_listing: false
+
+# Outputting
+permalink: pretty
+
+# Site Settings
+url:          http://mikelikesbikes.com/
 
 openid_cfg:
   openid:
