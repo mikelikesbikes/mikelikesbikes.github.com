@@ -1,4 +1,4 @@
-ruby "2.4.1"
+ruby "2.7.2"
 source "http://rubygems.org"
 
 gem "rake"
